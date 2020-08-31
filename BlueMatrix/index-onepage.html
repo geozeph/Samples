@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>BlueMatrix Project</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Main Style CSS -->
+    <link rel="stylesheet" href="assets/css/cssreduced.css">
+
+    <!-- Javascript for the graphs to function -->
+    <script src="assets\js\utils.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+</head>
+
+<body>
+    <!--   header area  -->
+    <div class="header-area header-area--default">
+
+        <!-- Header Bottom Wrap Start -->
+        <header class="header-area header-sticky">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 d-flex align-items-center">
+                        <div class="header-logo">
+                            <div class="logo">
+                                <a href="index.html"><img class="logobox" src="assets/images/logo/logo.png"
+                                        alt="logo"></a>
+                            </div>
+                        </div>
+                        <div class="header-right">
+                            <div class="header__navigation menu-style-three d-none d-lg-block">
+                                <nav class="navigation-menu">
+                                    <ul>
+                                        <li class="has-children">
+                                            <a href="index.html"><span>Home</span></a>
+                                        </li>
+                                        <li class="has-children has-children--multilevel-submenu active">
+                                            <a href="#"><span>Soulutions</span></a>
+                                            <ul class="submenu">
+                                                <li class="active"><a href="index.html"><span>item 1</span></a></li>
+                                                <li><a href=""><span>item 2</span></a></li>
+                                                <li><a href=""><span>item 3</span></a></li>
+                                                <li><a href=""><span>item 4</span></a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-children">
+                                            <a href=""><span>Platforms</span></a>
+                                        </li>
+                                        <li class="has-children has-children--multilevel-submenu">
+                                            <a href=""><span>Insights</span></a>
+
+                                        </li>
+
+                                        <li class="has-children"><a href=""><span>Who we Are</span></a></li>
+                                        <li class="has-children has-children--multilevel-submenu">
+                                            <a href="#"><span>Pages</span></a>
+                                            <ul class="submenu">
+                                                <li><a href=""><span>item 1</span></a></li>
+                                                <li><a href=""><span>item 2</span></a></li>
+                                                <li><a href=""><span>item 3</span></a></li>
+                                                <li><a href=""><span>item 4</span></a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-children">
+                                            <a href=""><span>Contact</span></a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="header-btn text-right d-none d-sm-block ml-lg-4">
+                                <a class="btn-circle btn-default btn" href="#">Sign In</a>
+                            </div>
+
+                            <!-- mobile menu -->
+                            <div class="mobile-navigation-icon d-block d-lg-none" id="mobile-menu-trigger">
+                                <i></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Header Bottom Wrap End -->
+
+    </div>
+    <!--   End of header area   -->
+
+    <div class="site-wrapper-reveal no-overflow">
+
+        <!--   Hero Area Start    -->
+        <div class="hero-area hero-style-02 default-hero-bg-two bg-overlay-black">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="hero-content text-center">
+                            <h5 class="text-white text-left"> May 21, 2020</h5>
+                            <h1 class="text-white text-left">BlueMatrix is Giving its <br>
+                                Competitors the
+                                Blues</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--   Hero Area End    -->
+
+
+        <!--   Big Line Graph Start    -->
+        <div class="info-about-area section-space--pb_120">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-8">
+                        <div class="about-tai-image  small-mb__30 tablet-mb__30">
+                            <canvas id="canvas"></canvas>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="about-tai-content">
+                            <div class="section-title-wrap mt-20">
+                                <h3 class="section-title-normal mb-30">BlueMatrix Financial Inc.</h3>
+                            </div>
+
+
+                            <p>
+                                <h6>Company Update</h6><br>
+                                Established in 1999, the BlueMatrix ecosystem is the gold standard solution and the
+                                world's
+                                largest publishers of investment research. We connect the world's leading asset and
+                                wealth
+                                managers with over 1000 research contributors.
+                            </p>
+                            <div class="about-us-button mt-40">
+                                <a class="about-us-btn" href="#">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--   Big Line Graph End    -->
+
+        <!--   Four Points Start    -->
+        <div class="feature-area section-space--pt_90">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6">
+                        <!-- Single Feature Start -->
+                        <div class="single-feature-two">
+
+                            <div class="feature-content">
+                                <h6 class="feature-title">Revolutionary Authoring Platform: One stop shop.</h6>
+                                <p>BlueMatrix's web editor creates
+                                    PDFs, HTML5, Email and RIXML in one centralized authoring workflow</p>
+                            </div>
+                        </div>
+                        <!--// Single Feature End -->
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <!-- Single Feature Start -->
+                        <div class="single-feature-two">
+
+                            <div class="feature-content">
+                                <h6 class="feature-title">A Full Suite of Complementary Module:</h6>
+                                <p>Client Manager CRM to manage contact
+                                    subscriptions to research, a device-responsive library, robust readership analytics
+                                    platform are just a few of the applications that come with the package.</p>
+                            </div>
+                        </div>
+                        <!--// Single Feature End -->
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <!-- Single Feature Start -->
+                        <div class="single-feature-two">
+
+                            <div class="feature-content">
+                                <h6 class="feature-title">Compliance is a no brainer for us:</h6>
+                                <p>BlueMatrix has powerful compliance tools that allow
+                                    workflows to get extra scrutiny when content is subject to regulatory issues.</p>
+                            </div>
+                        </div>
+                        <!--// Single Feature End -->
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <!-- Single Feature Start -->
+                        <div class="single-feature-two">
+
+                            <div class="feature-content">
+                                <h6 class="feature-title">Support is our special sauce:</h6>
+                                <p>Live phone support and personalized online ticket
+                                    responses offer unprecedented service when things don't go as planned. Or if you
+                                    just
+                                    have a question. We're there along the way.</p>
+                            </div>
+                        </div>
+                        <!--// Single Feature End -->
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--   Four Points End    -->
+
+
+        <!--   Line Graph Area Start   -->
+        <div class="info-about-area section-space--pb_120">
+            <div class="container">
+                <div class="row align-items-center">
+                    <table class="containerGraph">
+                        <thead>
+                            <tr>
+                                <th>
+                                    <h5>&zwnj; </h5>
+                                </th>
+                                <th>
+                                    <h5> </h5>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Symbol</td>
+                                <td>BMF-NYSE</td>
+
+                            </tr>
+                            <tr>
+                                <td>Stock Rating</td>
+                                <td>Buy</td>
+
+                            </tr>
+                            <tr>
+                                <td>Price</td>
+                                <td>$40</td>
+
+                            </tr>
+                            <tr>
+                                <td>Price Target</td>
+                                <td>$150</td>
+
+                            </tr>
+                            <tr>
+                                <td>Fiscal year End</td>
+                                <td>December</td>
+
+                            </tr>
+                            <tr>
+                                <td> &zwnj; </td>
+                                <td> &zwnj;</td>
+
+                            </tr>
+                            <tr>
+                                <td> &zwnj;</td>
+                                <td> &zwnj; </td>
+
+                            </tr>
+
+
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <table class="containerGraph">
+                        <thead>
+                            <tr>
+                                <th>
+                                    <h5>Market Data</h5>
+                                </th>
+                                <th>
+                                    <h5> </h5>
+                                </th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>52-Week High</td>
+                                <td>$75.00</td>
+
+                            </tr>
+                            <tr>
+                                <td>52-Week Low</td>
+                                <td>$35.00</td>
+
+                            </tr>
+                            <tr>
+                                <td>Enterprise Value (M)</td>
+                                <td>$123</td>
+
+                            </tr>
+                            <tr>
+                                <td>Market Cap (M)</td>
+                                <td>$2,808</td>
+
+                            </tr>
+                            <tr>
+                                <td>Shares Outstanding (M)</td>
+                                <td>234.0</td>
+
+                            </tr>
+                            <tr>
+                                <td>Average Daily Volume</td>
+                                <td>456,000</td>
+
+                            </tr>
+                            <tr>
+                                <td>Dividend</td>
+                                <td>$0.50</td>
+
+                            </tr>
+
+
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!--   Line Graph Area End   -->
+
+        <div class="  info-about-area section-space--pb_120">
+            <div class="container">
+                <div class="row align-items-center">
+                    <table class="containerGraph">
+                        <thead>
+                            <tr>
+                                <th>
+                                    <h5> </h5>
+                                </th>
+                                <th>
+                                    <h5> </h5>
+                                </th>
+                                <th>
+                                    <h5>2018A</h5>
+                                </th>
+                                <th>
+                                    <h5>2019E</h5>
+                                </th>
+                                <th>
+                                    <h5>2020E</h5>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>EPS</td>
+                                <td>Q1</td>
+                                <td>$1.35</td>
+                                <td>$1.67</td>
+                                <td>$1.76</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Q2</td>
+                                <td>$1.50</td>
+                                <td>$1.35</td>
+                                <td>$1.79</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Q3</td>
+                                <td>$1.45</td>
+                                <td>$1.96</td>
+                                <td>$1.83</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Q4</td>
+                                <td>$1.65</td>
+                                <td>$1.85</td>
+                                <td>$1.48</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>FY</td>
+                                <td>$3.75</td>
+                                <td>$5.24</td>
+                                <td>$6.50</td>
+                            </tr>
+                            <tr>
+                                <td>P/E</td>
+                                <td></td>
+                                <td>10.7x</td>
+                                <td>7.6xx</td>
+                                <td>6.2x</td>
+                            </tr>
+                            <tr>
+                                <td>EBITDA</td>
+                                <td></td>
+                                <td>$4000</td>
+                                <td>$4512</td>
+                                <td>$1547</td>
+                            </tr>
+                            <tr>
+                                <td>Revenue</td>
+                                <td></td>
+                                <td>$5434</td>
+                                <td>$3666</td>
+                                <td>$2321</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div class="col-lg-6">
+                        <div>
+
+                            <br>
+                            <canvas id="chartjs-2" class="chartjs"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--   Footer Area Start   -->
+        <footer class="footer-area bg-footer">
+            <div class="footer-top section-space--ptb_80 section-pb text-white">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="widget-footer mt-30">
+                                <div class="footer-title">
+                                    <h6>Authors</h6>
+                                </div>
+                                <div class="footer-contents">
+                                    <ul>
+                                        <li>
+                                            <h5 class="text-white">Jérémie Bourque </h5> jeremie.bourque@bluematrix.com
+                                            <br>
+                                            +1 646.723.1970
+                                        </li>
+                                        <li>
+                                            <h5 class="text-white">Celso Sánchez, CFA </h5> celso.sanchez@bluematrix.com
+                                            <br>
+                                            +1 646 887 2898
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6 col-sm-6">
+                            <div class="widget-footer mt-30">
+                                <div class="footer-title">
+                                    <h6>Related Links</h6>
+                                </div>
+                                <div class="footer-contents">
+                                    <ul>
+                                        <li>Investment Research</li>
+                                        <li>Information Strategy</li>
+                                        <li>Platforms</li>
+                                        <li>Insights</li>
+                                        <li>Who We Ar</li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="widget-footer mt-30">
+                                <div class="footer-title">
+                                    <h6>Our offices</h6>
+                                </div>
+                                <div class="footer-contents">
+                                    <ul>
+                                        <li>New York (Global HQ)
+                                            853 Broadway
+                                            19th Floor
+                                            New York, NY 10003
+                                            United States</li>
+                                        <li>London
+                                            51 St. Martin's Lane
+                                            London WC2N 4EA
+                                            United Kingdom</li>
+                                        <li>Durham, N.C.
+                                            318 Blackwell Street
+                                            Suite 240
+                                            Durham, N.C. 27701
+                                            United States</li>
+                                        <li>Timișoara
+                                            Bulevardul Revoluției 1989
+                                            nr.20, SAD3
+                                            Timișoara, TM 300024
+                                            România</li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="widget-footer mt-30">
+                                <div class="footer-title">
+                                    <h6>Contact</h6>
+                                </div>
+
+                                <div class="footer-contents">
+                                    <p> Contact us below to schedule a demo </p>
+                                    <div class="footerBox">
+                                        <a class="contact-us-btn">Request a demo</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="copy-right-box">
+                                <p class="text-white">By Geozeph ewida <a href="https://www.geozeph.com"
+                                        target="_blank">c.</a></p>
+                                <p class=" text-white">Privacy policy</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--  Footer Area End   -->
+
+
+        <!--   mobile menu overlay  -->
+        <div class="mobile-menu-overlay" id="mobile-menu-overlay">
+            <div class="mobile-menu-overlay__inner">
+                <div class="mobile-menu-overlay__header">
+                    <div class="container-fluid">
+                        <div class="row align-items-center">
+                            <div class="col-md-6 col-8">
+                                <!-- logo -->
+                                <div class="logo">
+                                    <a href="index.html">
+                                        <img src="assets/images/logo/logo.png" class="img-fluid" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-4">
+                                <!-- mobile menu content -->
+                                <div class="mobile-menu-content text-right">
+                                    <span class="mobile-navigation-close-icon" id="mobile-menu-close-trigger"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mobile-menu-overlay__body">
+                    <nav class="offcanvas-navigation">
+                        <ul>
+                            <li class="has-children">
+                                <a href="index.html">Home</a>
+                                <ul class="sub-menu">
+                                    <li><a href="index.html"><span>item 1</span></a></li>
+                                    <li><a href="index-2.html"><span>item 2</span></a></li>
+                                </ul>
+                            </li>
+                            <li class="has-children">
+                                <a href="">Soulutions</a>
+                            </li>
+                            <li class="has-children">
+                                <a href="">Platforms</a>
+                            </li>
+                            <li class="has-children">
+                                <a href="">Insights</a>
+                            </li>
+
+                            <li class="has-children">
+                                <a href="">Who we are</a>
+                            </li>
+
+                            <li class="has-children">
+                                <a href="javascript:void(0)">Pages</a>
+                                <ul class="sub-menu">
+                                    <li><a href=""><span>item 1</span></a></li>
+                                    <li><a href=""><span>item 2</span></a></li>
+                                    <li><a href=""><span>item 3</span></a></li>
+                                    <li><a href=""><span>item 4</span></a></li>
+                                </ul>
+                            </li>
+
+                            <li class="has-children">
+                                <a href="">Contact</a>
+
+                            </li>
+
+
+
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!--  End of mobile menu overlay  -->
+
+
+        <!-- JS Imports -->
+        <script src="assets/js/lineChart.js"></script>
+
+        <script src="assets/js/lineChartS.js"></script>
+
+        <!-- jQuery JS -->
+        <script src="assets/js/vendor/jquery-3.3.1.min.js"></script>
+
+        <!-- wow JS -->
+        <script src="assets/js/plugins/wow.min.js"></script>
+
+        <!-- Main JS -->
+        <script src="assets/js/main.js"></script>
+
+
+
+</body>
+
+</html>
